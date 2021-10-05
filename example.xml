@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<railway_depo>
+    <name>Bel-Railway</name>
+    <sheds>
+        <shed room="1">
+            <trains>
+                <passengerlocomotive name="Union" role="Locomotive" purpose="Passenger"
+                                tractionforce="10000 ms"/>
+                <cargotrainlocomotive name="Stalin" role="Locomotive" purpose="Cargo" tractionforce="200000 ms"/>
+                <cargotrainlocomotive name="Franklin" role="Locomotive" purpose="Cargo" tractionforce="5000 ms"/>
+            </trains>
+        </shed>
+        <shed room="2">
+            <trains>
+                <passengertrain name="RedNation" role="Vagon" purpose="Passenger" axialload="2 tons"
+                                capacity="300" />
+                <cargotrain name="Felix" role="Vagon" purpose="Cargo" axialload="3 tons" loadvolume="90000 kilo" />
+                <passengertrain name="Vladimir" role="Vagon" purpose="Passenger" axialload="5 tons"
+                                capacity="900"/>
+            </trains>
+        </shed>
+    </sheds>
+</railway_depo>
