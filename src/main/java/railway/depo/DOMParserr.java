@@ -4,6 +4,10 @@ import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
+import railway.depo.carvagon.CargoRailroadCar;
+import railway.depo.carvagon.PassengerRailroadCar;
+import railway.depo.locomotives.LocomotiveCargo;
+import railway.depo.locomotives.LocomotivePassenger;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;

@@ -1,5 +1,10 @@
 package railway.depo;
 
+import railway.depo.carvagon.CargoRailroadCar;
+import railway.depo.carvagon.PassengerRailroadCar;
+import railway.depo.carvagon.RailroadCar;
+import railway.depo.locomotives.Locomotive;
+
 import java.util.ArrayList;
 import java.util.List;
 

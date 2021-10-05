@@ -1,6 +1,8 @@
 package railway.depo;
 
 import org.xml.sax.SAXException;
+import railway.depo.carvagon.PassengerRailroadCar;
+import railway.depo.locomotives.LocomotivePassenger;
 
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.FileWriter;
@@ -22,7 +24,7 @@ public class Main {
                 ("Valeiya", "600"));
 
         railwayTrain.addCar(new PassengerRailroadCar("Valeya", "3 tons", "600"));
-        railwayTrain.addCar(new PassengerRailroadCar("Feedom", "4 tons", "700"));
+        railwayTrain.addCar(new PassengerRailroadCar("Feedom", "4 tons", "800"));
         int totalPassengers = railwayTrain.countPassengers();
 
 

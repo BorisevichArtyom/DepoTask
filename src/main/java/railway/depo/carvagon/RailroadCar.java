@@ -1,6 +1,8 @@
-package railway.depo;
+package railway.depo.carvagon;
 
-public abstract class RailroadCar extends Train{
+import railway.depo.Train;
+
+public abstract class RailroadCar extends Train {
     String axialLoad;
 
     public RailroadCar(String name, String role, String purpose, String axialLoad) {
