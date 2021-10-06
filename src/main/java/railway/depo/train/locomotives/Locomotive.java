@@ -1,6 +1,6 @@
-package railway.depo.locomotives;
+package railway.depo.train.locomotives;
 
-import railway.depo.Train;
+import railway.depo.train.Train;
 
 public abstract class Locomotive extends Train {
     private String tractionforce;

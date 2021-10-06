@@ -1,9 +1,9 @@
-package railway.depo;
+package railway.depo.train;
 
-import railway.depo.carvagon.CargoRailroadCar;
-import railway.depo.carvagon.PassengerRailroadCar;
-import railway.depo.carvagon.RailroadCar;
-import railway.depo.locomotives.Locomotive;
+import railway.depo.train.carvagon.CargoRailroadCar;
+import railway.depo.train.carvagon.PassengerRailroadCar;
+import railway.depo.train.carvagon.RailroadCar;
+import railway.depo.train.locomotives.Locomotive;
 
 import java.util.ArrayList;
 import java.util.List;

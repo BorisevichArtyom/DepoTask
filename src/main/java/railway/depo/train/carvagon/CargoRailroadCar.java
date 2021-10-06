@@ -1,4 +1,4 @@
-package railway.depo.carvagon;
+package railway.depo.train.carvagon;
 
 public class CargoRailroadCar extends RailroadCar {
     private String volume;

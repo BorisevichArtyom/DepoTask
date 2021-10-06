@@ -1,4 +1,4 @@
-package railway.depo;
+package railway.depo.train;
 
 public enum TrainsXML {
     PASSENGERTRAIN("passengertrain"),

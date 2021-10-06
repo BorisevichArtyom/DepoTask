@@ -1,4 +1,4 @@
-package railway.depo.locomotives;
+package railway.depo.train.locomotives;
 
 public class LocomotiveCargo extends Locomotive{
     private static final String ROLE="Locomotive";

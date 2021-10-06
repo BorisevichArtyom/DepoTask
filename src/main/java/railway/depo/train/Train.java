@@ -1,4 +1,4 @@
-package railway.depo;
+package railway.depo.train;
 
 public abstract class Train {
     private String name;
